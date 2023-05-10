@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.div-section {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 54px;
+}
+
+.menu {
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(78, 94, 142);
+}
+
+.nav-menu {
+    margin: 20px;
+}
+
+.iten-menu {
+    position: relative;
+    display: inline;
+    margin: 15px;
+    color: rgb(255, 255, 255);  
+}
+
+.iten-menu:hover {
+    background-color: rgb(64, 77, 116);
+    
+}
+
+.iten-menu:active {
+    background-color: rgb(41, 49, 75);
+    color: rgb(255, 255, 255);
+}
+.iten-menu:visited {
+    color: rgb(255, 255, 255);
+}
