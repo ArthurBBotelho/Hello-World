@@ -5,20 +5,18 @@
     list-style-type: none;
 }
 
-.div-section {
-    font-family: 'Poppins', sans-serif;
-}
-
-
 #titulo {
+    color: rgb(17, 21, 31);
     font-family: 'Playfair Display', serif;
-    font-size: 54px;
+    font-size: 64px;
 }
 
 .menu {
+    position: fixed;
     font-family: 'Poppins', sans-serif;
     padding: 50px;
-    height: 80px;
+    width: 100%;
+    height: 100px;
     text-align: center;
     background-color: rgb(78, 94, 142);
 }
@@ -30,7 +28,7 @@
 .iten-menu {
     position: relative;
     display: inline;
-    margin: 15px;
+    margin: 20px;
     color: rgb(255, 255, 255);  
 }
 
@@ -45,4 +43,32 @@
 }
 .iten-menu:visited {
     color: rgb(255, 255, 255);
+}
+
+.div-section-sobre{
+    padding-top: 180px;
+    margin:30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cell {
+    height: 150px;
+    text-align: center;
+}
+
+.quote-div {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.quote {
+    
+    font-style: italic;
+    font-size: 32px;
+    font-weight: 600;
 }
