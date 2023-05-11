@@ -6,26 +6,31 @@
 }
 
 #titulo {
-    color: rgb(17, 21, 31);
+    color: rgb(255, 170, 0);
     font-family: 'Playfair Display', serif;
-    font-size: 64px;
+    font-size: 54px;
+    padding-left: 250px;
 }
 
 .menu {
-    position: fixed;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
     font-family: 'Poppins', sans-serif;
-    padding: 50px;
     width: 100%;
-    height: 100px;
-    text-align: center;
+    height: 80px;
+    display: flex;
+    align-items: center;
     background-color: rgb(78, 94, 142);
 }
 
 .nav-menu {
+    padding-left: 400px;
     margin: 20px;
 }
 
 .iten-menu {
+    font-size: 18px;
     position: relative;
     display: inline;
     margin: 20px;
@@ -34,7 +39,6 @@
 
 .iten-menu:hover {
     background-color: rgb(64, 77, 116);
-    
 }
 
 .iten-menu:active {
@@ -45,30 +49,51 @@
     color: rgb(255, 255, 255);
 }
 
-.div-section-sobre{
-    padding-top: 180px;
-    margin:30px;
-    margin-left: 200px;
-    margin-right: 200px;
+#sobre{
+    margin-left: 250px;
+    margin-right: 250px;
     font-family: 'Poppins', sans-serif;
 }
 
 .cell {
-    height: 150px;
+    padding-right: 30px;
+    height: 160px;
     text-align: center;
 }
 
 .quote-div {
     display: flex;
     align-items: center;
-    margin: 50px;
+    margin: 80px;
     margin-left: 100px;
     margin-right: 100px;
 }
 
 .quote {
-    
+    color: rgb(41, 49, 75);
     font-style: italic;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 600;
 }
+
+#projetos {
+    padding-left: 250px;
+    margin-right: 250px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#parceiros {
+    padding-left: 250px;
+    margin-right: 250px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#contato {
+    color: rgb(41, 49, 75);
+    font-family: 'Poppins', sans-serif;
+}
+#contato:visited {
+    color: rgb(41, 49, 75);
+}
+
+
