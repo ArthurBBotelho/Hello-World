@@ -8,7 +8,7 @@
 #titulo {
     color: rgb(255, 170, 0);
     font-family: 'Playfair Display', serif;
-    font-size: 200%;
+    font-size: 250%;
     display: flex;
     align-items: center;
     margin-left: 15%;
@@ -27,7 +27,7 @@
 .nav-menu {
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 20%;
+    flex-direction: row;
 }
 
 .iten-menu {
@@ -50,9 +50,9 @@
 }
 
 #sobre{
-    width: 70%;
-    padding-left: 15%;
-    padding-right: 15%;
+    width: 90%;
+    margin-left: 5%;
+
     font-family: 'Poppins', sans-serif;
 }
 
