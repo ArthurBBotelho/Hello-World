@@ -11,7 +11,7 @@
     font-size: 250%;
     display: flex;
     align-items: center;
-    margin-left: 15%;
+    margin-left: 250px;
 }
 
 .menu {
@@ -28,10 +28,12 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+    padding-left: 250px;
 }
 
 .iten-menu {
     font-size: 18px;
+    display: flex;
     justify-content: flex-end;
     margin: 5%;
     color: rgb(255, 255, 255);  
@@ -50,9 +52,9 @@
 }
 
 #sobre{
-    width: 90%;
-    margin-left: 5%;
-
+   
+    margin-left: 250px;
+    padding-right: 250px;
     font-family: 'Poppins', sans-serif;
 }
 
