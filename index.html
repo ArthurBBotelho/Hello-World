@@ -47,12 +47,24 @@
 
     <hr>
     <section id="sobre" style="padding-top: 80px;">
-        <h2>Sobre</h2>
+        <h2>TAREFAS</h2>
 
-        <button>
-            Clique!
+        <p>Adicione uma tarefa:</p>
+
+        <input id="itemLista" type="text">
+
+        <button id="enviar" onclick="enviar()">
+            Enviar
+        </button>
+        <button id="visualizar" onclick="visualizar()">
+            Visualizar
+        </button>
+        <button id="limpar" onclick="limpar()">
+            Limpar
         </button>
 
+        <div id="area"></div>
+        <hr>
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem totam voluptate illo quasi fugiat. Delectus
             quam
