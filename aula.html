@@ -10,7 +10,36 @@
 <body>
     <h1>Aula 21</h1>
 
+    <h2>TAREFAS</h2>
+
+    <p>Adicione uma tarefa:</p>
+
+    <input id="itemLista" type="text">
+
+    <button id="enviar" onclick="enviar()">
+        Enviar
+    </button>
+    <button id="visualizar" onclick="visualizar()">
+        Visualizar
+    </button>
+    <button id="limpar" onclick="limpar()">
+        Limpar
+    </button>
+
+    <div id="area"></div>
+    <hr>
+
+    <h1>Eliminar</h1>
+
     <button onclick="eliminar()">eliminar</button>
+
+    <h2>Calculadora</h2>
+
+    <input id="n1" type="number">
+    <input id="n2" type="number">
+    <button onclick="soma()">Soma</button>
+
+    <div id="resultado">Resultado: </div>
 
     <script src="script.js"></script>
 </body>

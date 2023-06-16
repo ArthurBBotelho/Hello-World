@@ -9,12 +9,12 @@
 
 
 
-//let botao = document.getElementById("clique")
-//botao.onclick = () => {
-//    console.log("clicou no botão")
-//}
+// let botao = document.getElementById("clique")
+// botao.onclick = () => {
+//     console.log("clicou no botão")
+// }
 
-//    let lista = [];
+// let lista = [];
 
 // function enviar() {
 //     let item = document.getElementById("itemLista")
@@ -35,32 +35,26 @@
 
 //CRIAR ELEMENTO
 
-let nome = document.createElement("h1")
-nome.className = "nome"
-nome.innerText = "Arthur"
+// let nome = document.createElement("h1")
+// nome.className = "nome"
+// nome.innerText = "Arthur"
 
-let sobrenome = document.createElement("h2")
-nome.className = "sobrenome"
-nome.innerText = "Botelho"
+// let sobrenome = document.createElement("h2")
+// nome.className = "sobrenome"
+// nome.innerText = "Botelho"
 
-document.body.append(sobrenome)
+// document.body.append(sobrenome)
 
-document.body.append(nome)
+// document.body.append(nome)
 
-function eliminar() {
-    let eliminar = sobrenome
-    eliminar.remove()
+// function eliminar() {
+//     let eliminar = sobrenome
+//     eliminar.remove()
+// }
+
+let soma = document.getElementById("soma")
+soma.addEventListener("click", acaosoma)
+
+function acaosoma() {
+
 }
-
-// // Criar elementos
-// let p = document.createElement("p")
-// p.className = "paragrafo"
-// p.id = "hello"
-// let hello = document.createElement("h2")
-
-// // Inserir texto ao elemento
-// hello.innerText = "Hello World!"
-
-// // Adicionar elementos
-// p.append(hello)
-// document.body.append(p)
