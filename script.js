@@ -52,9 +52,22 @@
 //     eliminar.remove()
 // }
 
-let soma = document.getElementById("soma")
-soma.addEventListener("click", acaosoma)
+let n1 = document.getElementById("n1")
+let n2 = document.getElementById("n2")
+let resultado = document.getElementById("resultado")
 
-function acaosoma() {
+function soma() {
+    resultado.innerHTML = parseInt(n1.value) + parseInt(n2.value)
+}
 
+function subtração() {
+    resultado.innerHTML = parseInt(n1.value) - parseInt(n2.value)
+}
+
+function divisão() {
+    resultado.innerHTML = parseInt(n1.value) / parseInt(n2.value)
+}
+
+function multiplicação() {
+    resultado.innerHTML = parseInt(n1.value) * parseInt(n2.value)
 }
