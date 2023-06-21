@@ -1,13 +1,19 @@
 let pais = document.getElementById("pais")
 
-let bandeira
+function exibirBandeira() {
+    fetch("https://restcountries.com/v3.1/name/" + pais.value)
+        .then(response => response.json())
+        .then(response => exibir(response))
 
-fetch("https://restcountries.com/v3.1/name/" + pais)
-    .then(response => response.json())
-    .then(response => exibir(response))
 
-function exibirBandeira(bandeira) {
-    let bandeira = document.createElement("img")
-    document.body.append(bandeira)
+}
+
+function exibir(bandeira) {
+    let imgFlag = document.getElementById("flag")
+    imgFlag.innerText = ""
+    let flag = document.createElement("img")
+    console.log(bandeira)
+    flag.src = bandeira[0].flags.png
+    imgFlag.append(flag)
 }
 
